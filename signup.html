@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="./css/main.css"/>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Heroku Solution</title>
+</head>
+
+<body>
+<!-- Header -->
+<header class="main-header-inner">
+  <nav class="transparent">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Heroku</a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse">
+          <i class="fa fa-bars"></i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="solutions.html">Solutions</a>
+          </li>
+          <li>
+            <a class="active-link" href="signup.html">Sign Up</a>
+          </li>
+          <li>
+            <a href="#login-modal" class="btn purple modal-trigger">Login</a>
+          </li>
+          <li>
+            <a href="https://facebook.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-nav">
+          <h4 class="purple-text text-darken-4 center">
+            Heroku
+          </h4>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="fa fa-home grey-text text-darken-4"></i>
+              Home</a>
+          </li>
+          <li>
+            <a href="solutions.html">
+              <i class="fa fa-cog grey-text text-darken-4"></i>
+              Solutions</a>
+          </li>
+          <li>
+            <a href="signup.html">
+              <i class="fa fa-users grey-text text-darken-4"></i>
+              Sign Up</a>
+          </li>
+          <li>
+            <div class="divider"></div>
+          </li>
+          <li>
+            <a href="#login-modal" class="btn purple">
+              Login
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Showcase-->
+  <div class="showcase container">
+    <div class="col s12 m10 offset-m1 center">
+      <h5>Welcome To Heroku</h5>
+      <h1>Create An Account</h1>
+    </div>
+  </div>
+</header>
+
+<section class="section section-signup">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title purple-text text-darken-1">
+              <i class="fa fa-user"></i> &nbsp;
+              <b>Get a free account</b>
+            </span>
+            <div class="divider"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque dicta dolores ducimus ea illo
+              ipsum nam temporibus tenetur vel.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title purple-text text-darken-1">
+              <i class="fas fa-download"></i> &nbsp;
+              <b>Download the free software</b>
+            </span>
+            <div class="divider"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque dicta dolores ducimus ea illo
+              ipsum nam temporibus tenetur vel.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title purple-text text-darken-1">
+              <i class="fas fa-upload"></i> &nbsp;
+              <b>Push to the platform</b>
+            </span>
+            <div class="divider"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque dicta dolores ducimus ea illo
+              ipsum nam temporibus tenetur vel.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card-panel grey lighten-4 grey-text text-darken-4">
+          <form action="">
+            <div class="input-field">
+              <input type="text" id="first_name">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="last_name">
+              <label for="last_name">Last Name</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="signup_email">
+              <label for="signup_email">Email</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="signup_password">
+              <label for="signup_password">Password</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="company">
+              <label for="company">Company</label>
+            </div>
+            <div class="input-field">
+              <select name="" id="role">
+                <option value="" disabled selected>Select Role</option>
+                <option value="professional">Professional Developer</option>
+                <option value="hobbyist">Hobbyist</option>
+                <option value="student">Student</option>
+                <option value="manager">Manager</option>
+                <option value="other">Other</option>
+              </select>
+              <label for="role">Role</label>
+            </div>
+            <input type="submit" value="Signup" class="btn btn-large purple btn-extend">
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+<footer class="page-footer deep-purple lighten-1">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">About Us</h5>
+        <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi
+          consequatur fugit ipsam nobis, perspiciatis quam?</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+          <li><a class="grey-text text-lighten-3" href="solutions.html">Solutions</a></li>
+          <li><a class="grey-text text-lighten-3" href="signup.html">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright deep-purple darken-1">
+    <div class="container">
+      Heroku &copy; 2018
+      <a class="grey-text text-lighten-4 right" href="#">Terms & Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<!--Login-->
+<div id="login-modal" class="modal">
+  <div class="modal-content center-align deep-purple darken-1 white-text">
+    <h4>Account Login</h4>
+    <p>Login to access your account dashboard</p>
+  </div>
+  <div class="container">
+    <div class="btn-floating halfway-fab purple center-align btn-large">
+      <i class="fa fa-user"></i>
+    </div>
+    <div class="modal-content center-align">
+      <form>
+        <div class="input-field">
+          <input type="text" id="login_email">
+          <label for="login_email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="login_password">
+          <label for="login_password">Password</label>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action  modal-close btn grey waves-effect waves-light">
+        <i class="fa fa-sync"></i> &nbsp Reset Password
+      </a>
+      <a href="#!" class="modal-action modal-close btn purple waves-effect waves-light">
+        <i class="fa fa-lock"></i> &nbsp Login
+      </a>
+    </div>
+  </div>
+</div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script>
+    "use strict";
+    $(document)
+        .ready(function () {
+            // Custom JS & jQuery here
+            $(".carousel.carousel-slider")
+                .carousel({fullWidth: true});
+            $(".button-collapse").sideNav();
+            $('.modal').modal();
+            $('select').material_select();
+        });
+</script>
+</body>
+
+</html>
